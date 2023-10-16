@@ -1,8 +1,7 @@
 package org.samasama.fraud;
 
-import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
+import org.springframework.stereotype.Service;
 
 @Service
 public class FraudCheckService {

@@ -1,3 +1,3 @@
-package org.samasama.fraud;
+package com.samasama.clients.fraud;
 
 public record FraudCheckResponse(Boolean isFraudster) {}
