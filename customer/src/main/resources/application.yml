@@ -23,6 +23,8 @@ spring:
   #    addresses: localhost:5672
   profiles:
     active: default
+  rabbitmq:
+    addresses: localhost:5672
 eureka:
   client:
     service-url:

@@ -1,8 +1,8 @@
 package org.samasama.customer;
 
+import org.samasama.amqp.RabbitMQMessageProducer;
 import org.samasama.clients.fraud.FraudCheckResponse;
 import org.samasama.clients.fraud.FraudClient;
-import org.samasama.clients.notification.NotificationClient;
 import org.samasama.clients.notification.NotificationRequest;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public record CustomerService(
     CustomerRepository customerRepository,
     FraudClient fraudClient,
-    NotificationClient notificationClient) {
+    RabbitMQMessageProducer rabbitMQMessageProducer) {
 
   public void registerCustomer(CustomerRegistrationRequest customerRegistrationRequest) {
     Customer customer =
@@ -25,10 +25,12 @@ public record CustomerService(
     if (fraudCheckResponse.isFraudster()) {
       throw new IllegalStateException();
     }
-    notificationClient.sendNotification(
+    NotificationRequest notificationRequest =
         new NotificationRequest(
             customer.getId(),
             customer.getEmail(),
-            String.format("Hi %s, welcome to samasama !", customer.getFirstName())));
+            String.format("Hi %s, welcome to samasama !", customer.getFirstName()));
+    rabbitMQMessageProducer.publish(
+        notificationRequest, "internal.exchange", "internal.notification.routing-key");
   }
 }

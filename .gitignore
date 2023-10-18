@@ -1,0 +1,75 @@
+# Spring Boot
+/target/
+*/target/
+*/target/*
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# IDE-specific
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven-specific
+log/
+logs/
+*.log
+
+# Gradle-specific
+.gradle/
+/build/
+
+# Compiled files
+*.class
+*.jar
+*.war
+
+# Package Files #
+*.ear
+
+# Eclipse-specific
+*.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# IntelliJ-specific
+out/
+gen/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+# NetBeans-specific
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+
+# Visual Studio Code-specific
+.vscode/
+
+# Logs
+*.log*
+*.log/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
