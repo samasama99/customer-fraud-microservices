@@ -13,29 +13,29 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class NotificationConfig {
 
-  @Value(value = "${rabbitmq.exchanges.internal}")
-  private String internalExchange;
+    @Value(value = "${rabbitmq.exchanges.internal}")
+    private String internalExchange;
 
-  @Value("${rabbitmq.queues.notification}")
-  private String notificationQueue;
+    @Value("${rabbitmq.queues.notification}")
+    private String notificationQueue;
 
-  @Value("${rabbitmq.routing-keys.internal-notification}")
-  private String internalNotificationRoutingKey;
+    @Value("${rabbitmq.routing-keys.internal-notification}")
+    private String internalNotificationRoutingKey;
 
-  @Bean
-  public TopicExchange internalTopicExchange() {
-    return new TopicExchange(this.internalExchange);
-  }
+    @Bean
+    public TopicExchange internalTopicExchange() {
+        return new TopicExchange(this.internalExchange);
+    }
 
-  @Bean
-  public Queue notificationQueue() {
-    return new Queue(this.notificationQueue);
-  }
+    @Bean
+    public Queue notificationQueue() {
+        return new Queue(this.notificationQueue);
+    }
 
-  @Bean
-  public Binding internalToNotificationBinding() {
-    return BindingBuilder.bind(notificationQueue())
-        .to(internalTopicExchange())
-        .with(this.internalNotificationRoutingKey);
-  }
+    @Bean
+    public Binding internalToNotificationBinding() {
+        return BindingBuilder.bind(notificationQueue())
+                .to(internalTopicExchange())
+                .with(this.internalNotificationRoutingKey);
+    }
 }

@@ -5,32 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49d8faa9-572c-4dce-aa45-6120a507d4dd" name="Changes" comment="gateway directory and qmqp with rabbitmq">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/apigw.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/email_validation/EmailValidationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-validation/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQMessageProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigw/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigw/src/main/java/org/samasama/apigw/ApiGWApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/java/org/samasama/apigw/ApiGWApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigw/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/fraud/FraudCheckResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/email_validation/EmailValidationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/org/samasama/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/org/samasama/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudCheckHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudCheckHistoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudCheckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/banner.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/rabbitmq/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/rabbitmq/NotificationConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +102,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="build-docker-image" />
+      </list>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -102,7 +135,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;graalvm-ce-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oussr/projects/samaservices/notification&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oussr/projects/samaservices&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -152,29 +185,24 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerApplication">
-    <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.EmailValidation">
+    <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apigw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.samasama.apigw.ApiGWApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.samasama.apigw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.samasama.customer.CustomerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.samasama.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailValidation" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="email-validation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.samasama.email_validation.EmailValidation" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,7 +212,7 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.samasama.eurekaserver.EurekaServerApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samasama.eurekaserver.*" />
+          <option name="PATTERN" value="org.samasama.eurekaserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,28 +220,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FraudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fraud" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.samasama.fraud.FraudApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.samasama.fraud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="notification" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.samasama.notification.NotificationApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samasama.notification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,18 +234,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.EmailValidation" />
       <item itemvalue="Spring Boot.ApiGWApplication" />
-      <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.FraudApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomerApplication" />
-        <item itemvalue="Spring Boot.FraudApplication" />
-        <item itemvalue="Spring Boot.NotificationApplication" />
-        <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
@@ -258,7 +263,16 @@
       <workItem from="1697574274857" duration="4674000" />
       <workItem from="1697611319589" duration="11000" />
       <workItem from="1697611346338" duration="692000" />
-      <workItem from="1697612059042" duration="6332000" />
+      <workItem from="1697612059042" duration="8816000" />
+      <workItem from="1697931878996" duration="808000" />
+      <workItem from="1697932747957" duration="191000" />
+      <workItem from="1697933069102" duration="349000" />
+      <workItem from="1698267834816" duration="696000" />
+      <workItem from="1698447637988" duration="138000" />
+      <workItem from="1698447797093" duration="312000" />
+      <workItem from="1698448275749" duration="810000" />
+      <workItem from="1698459396541" duration="10034000" />
+      <workItem from="1698610394330" duration="10664000" />
     </task>
     <task id="LOCAL-00001" summary="adding two microservices, customer and fraud, a simple implementation">
       <option name="closed" value="true" />
@@ -318,6 +332,7 @@
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="executable:podman" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
   </component>
@@ -346,12 +361,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/Customer.java</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationApplication.java</url>
-          <line>26</line>
+          <line>22</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

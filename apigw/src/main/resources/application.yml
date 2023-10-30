@@ -12,10 +12,6 @@ spring:
           uri: lb://CUSTOMER
           predicates:
             - Path=/api/v1/customers/**
-#        - id: fraud
-#          uri: lb://FRAUD
-#          predicates:
-#            - Path=api/v1/fraud/**
 eureka:
   client:
     service-url:

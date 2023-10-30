@@ -1,7 +1,8 @@
 package org.samasama.customer;
 
-import javax.persistence.*;
 import lombok.*;
+
+import javax.persistence.*;
 
 @Data
 @Builder
@@ -10,12 +11,12 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 public class Customer {
-  @Id
-  @SequenceGenerator(name = "customer_id_sequence", sequenceName = "customer_id_sequence")
-  @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "customer_id_sequence")
-  private Integer id;
+    @Id
+    @SequenceGenerator(name = "customer_id_sequence", sequenceName = "customer_id_sequence")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "customer_id_sequence")
+    private Integer id;
 
-  private String firstName;
-  private String lastName;
-  private String email;
+    private String firstName;
+    private String lastName;
+    private String email;
 }

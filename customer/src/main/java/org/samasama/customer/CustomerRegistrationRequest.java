@@ -1,3 +1,4 @@
 package org.samasama.customer;
 
-public record CustomerRegistrationRequest(String firstName, String lastName, String email) {}
+public record CustomerRegistrationRequest(String firstName, String lastName, String email) {
+}

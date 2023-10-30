@@ -3,14 +3,25 @@ server:
 spring:
   application:
     name: notification
+  cloud:
+    vault:
+      kv:
+        enabled: true
+      authentication: TOKEN
+      token: root
+      scheme: http
+      host: 127.0.0.1
+      port: 8200
+  config:
+    import: vault://
   rabbitmq:
     addresses: localhost:5672
   zipkin:
     base-url: http://localhost:9411
   datasource:
-    password: 'password'
-    url: jdbc:postgresql://localhost:5432/notification
-    username: 'samasama'
+    url: jdbc:postgresql://localhost:5432/${spring.datasource.database}
+    username: ${spring.datasource.username}
+    password: ${spring.datasource.password}
   jpa:
     hibernate:
       ddl-auto: create-drop
@@ -19,8 +30,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: 'true'
     show-sql: 'true'
-  #  zipkin:
-  #    base-url: http://localhost:9411
   profiles:
     active: default
 eureka:
