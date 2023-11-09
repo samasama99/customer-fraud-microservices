@@ -3,6 +3,17 @@ server:
 spring:
   application:
     name: notification
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${gmail.email}
+    password: ${gmail.password}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
   cloud:
     vault:
       kv:
@@ -43,3 +54,7 @@ rabbitmq:
     notification: notification.queue
   routing-keys:
     internal-notification: internal.notification.routing-key
+
+gmail:
+  email: ${gmail.email}
+  password: ${gmail.password}

@@ -5,59 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49d8faa9-572c-4dce-aa45-6120a507d4dd" name="Changes" comment="gateway directory and qmqp with rabbitmq">
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/email_validation/EmailValidationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-validation/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQMessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/src/main/java/org/samasama/amqp/RabbitMQMessageProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/src/main/java/org/samasama/apigw/ApiGWApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/java/org/samasama/apigw/ApiGWApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/fraud/FraudCheckResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/email_validation/EmailValidationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/samasama/clients/notification/NotificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRegistrationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/samasama/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/org/samasama/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/org/samasama/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudCheckHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudCheckHistoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudCheckService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/samasama/fraud/FraudController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/email-validation/src/main/java/org/samasama/email_validation/EmailValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/rabbitmq/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/samasama/notification/rabbitmq/NotificationConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -121,44 +74,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;graalvm-ce-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oussr/projects/samaservices&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "graalvm-ce-17",
+    "last_opened_file_path": "C:/Users/oussr/projects/samaservices",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.samasama.notification" />
       <recent name="org.samasama.fraud" />
       <recent name="com.samasama.customer" />
     </key>
@@ -185,7 +139,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EmailValidation">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
     <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apigw" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.samasama.apigw.ApiGWApplication" />
@@ -272,7 +226,7 @@
       <workItem from="1698447797093" duration="312000" />
       <workItem from="1698448275749" duration="810000" />
       <workItem from="1698459396541" duration="10034000" />
-      <workItem from="1698610394330" duration="10664000" />
+      <workItem from="1698610394330" duration="18611000" />
     </task>
     <task id="LOCAL-00001" summary="adding two microservices, customer and fraud, a simple implementation">
       <option name="closed" value="true" />

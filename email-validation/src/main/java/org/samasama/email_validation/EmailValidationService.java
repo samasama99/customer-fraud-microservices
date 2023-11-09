@@ -25,21 +25,32 @@ public class EmailValidationService {
     }
 
     public boolean isValid(String email) {
-        String baseURL = "https://api.zerobounce.net/v2/validate?api_key=";
-        String encodedApiKey = URLEncoder.encode(zeroBounceApiKey, StandardCharsets.UTF_8);
-        String encodedEmail = URLEncoder.encode(email, StandardCharsets.UTF_8);
-        URI requestURI = URI.create(baseURL + encodedApiKey + "&email=" + encodedEmail);
-        EmailValidationResponse response = restTemplate.getForObject(
-                requestURI.toString(), EmailValidationResponse.class);
-        assert response != null;
-        log.info(response.toString());
-        boolean isValid = response.getStatus().equals("valid");
+
         this.emailValidationRepository.save(
                 EmailValidationHistory.builder()
                         .email(email)
-                        .isValid(isValid)
+                        .isValid(true)
                         .createdAt(LocalDateTime.now())
                         .build());
-        return isValid;
+
+        return true;
+
+//        String baseURL = "https://api.zerobounce.net/v2/validate?api_key=";
+//        String encodedApiKey = URLEncoder.encode(zeroBounceApiKey, StandardCharsets.UTF_8);
+//        String encodedEmail = URLEncoder.encode(email, StandardCharsets.UTF_8);
+//        URI requestURI = URI.create(baseURL + encodedApiKey + "&email=" + encodedEmail);
+//        EmailValidationResponse response = restTemplate.getForObject(
+//                requestURI.toString(), EmailValidationResponse.class);
+//        assert response != null;
+//        log.info(requestURI.toString());
+//        log.info(response.toString());
+//        boolean isValid = response.getStatus().equals("valid");
+//        this.emailValidationRepository.save(
+//                EmailValidationHistory.builder()
+//                        .email(email)
+//                        .isValid(isValid)
+//                        .createdAt(LocalDateTime.now())
+//                        .build());
+//        return returnisValid;
     }
 }

@@ -10,8 +10,15 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class NotificationService {
     private final NotificationRepository notificationRepository;
+    private final EmailService emailService;
 
     public void send(NotificationRequest notificationRequest) {
+        emailService.sendSimpleMessage(
+                notificationRequest.toCustomerEmail(),
+                "test",
+                notificationRequest.message()
+        );
+
         notificationRepository.save(
                 Notification.builder()
                         .toCustomerId(notificationRequest.toCustomerId())
